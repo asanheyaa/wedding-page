@@ -289,6 +289,8 @@ section,
   margin-left: 76px;
   margin-right: 56px;
   letter-spacing: 0em;
+  position: relative;
+  top: 10px;
 }
 @media (max-width: 1180px) {
   .hero__main-title span {
@@ -298,6 +300,11 @@ section,
 @media (max-width: 1180px) {
   .hero__main-title span {
     margin-right: calc(15px + 41 * (100vw - 393px) / 787);
+  }
+}
+@media (max-width: 1180px) {
+  .hero__main-title span {
+    top: calc(5px + 5 * (100vw - 393px) / 787);
   }
 }
 @media (max-width: 392px) {
